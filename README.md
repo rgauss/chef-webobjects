@@ -23,7 +23,7 @@ Cookbooks
 Attributes
 ==========
 
-* `node["java"]["install_flavor"]` - Flavor of JVM you would like installed (`sun` or `openjdk`), default `openjdk`.
+* `node["java"]["install_flavor"]` - Flavor of JVM you would like installed (`oracle` or `openjdk`), default `openjdk`.
 
 * `node[:app_environment]` - The chef environment. Default: "_default"
 
@@ -218,7 +218,7 @@ License and Authors
 
 Author:: Ray Gauss <ray.gauss@rightspro.com>
 
-Copyright:: 2011, RightsPro.
+Copyright:: 2011-2012, RightsPro, LLC.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
